@@ -1,41 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 
 
-    <title>CSS Architect</title>
+  <title>CSS Architect</title>
 </head>
+
 <body>
   <header>
-      <h1><em>B R</em> Architects</h1>
-      <nav>
-        <ul>
+    <h1><a href="index.html"><em>BR</em> Architects</a></h1>
+    <nav>
+      <ul>
         <li> <a href="">Projects</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Contact</a></li>
       </ul>
     </nav>
-  </header>  
+  </header>
   <main>
- <div class="imgContainer">
-   <img src="" alt="">
- </div>
-+
+
+
+
+    <div class="imgContainer">
+      <img src="images/architect.jpg" alt="architect">
+      <span><b>BR</b> Architects</span>
+    </div>
+
+
+
+    <div id="Projects">
+      <h3>Projects</h3>
+      <div class="first">
+        <div><img src="images/house5.jpg" alt=""><span>Summer House</span></div>
+        <div><img src="images/house2.jpg" alt=""><span>Brick House</span></div>
+        <div><img src="images/house3.jpg" alt=""><span>Renovated</span></div>
+        <div><img src="images/house4.jpg" alt=""><span>Barn House</span></div>
+
+
+      </div>
+      <div class="second">
+        <div><img src="images/house2.jpg" alt=""><span>Summer House</span></div>
+        <div><img src="images/house5.jpg" alt=""><span>Brick House</span></div>
+        <div><img src="images/house4.jpg" alt=""><span>Renovated</span></div>
+        <div><img src="images/house3.jpg" alt=""><span>Barn House</span></div>
+      </div>
+    </div>
 
 
 
 
+    <div id="about">
+      <h3>About</h3>
+      <div id="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div id= "members">
+      <div class="team">
+        <img src="images/team2.jpg" alt="">
+        <h4>John Doe</h4>
+        <h6>CEO & Founder</h6>
+        <span>Phasellus eget enim eu lectus faucibus <br> vestibulum. Suspendisse sodales pellentesque
+          elementum.</span>
+        <button>Contact</button>
+      </div>
+      <div class="team">
+        <img src="images/team1.jpg" alt="">
+        <h4>Jane Doe</h4>
+        <h6>Architect</h6>
+        <span>Phasellus eget enim eu lectus faucibus <br> vestibulum. Suspendisse sodales pellentesque 
+          elementum.</span>
+        <button>Contact</button>
+      </div>
+      <div class="team">
+        <img src="images/team3.jpg" alt="">
+        <h4>Mike Ross</h4>
+        <h6>Architect</h6>
+        <span>Phasellus eget enim eu lectus faucibus <br> vestibulum. Suspendisse sodales pellentesque 
+          elementum.</span>
+        <button>Contact</button>
+      </div>
+      <div class="team">
+        <img src="images/team4.jpg" alt="">
+        <h4>Dan Star</h4>
+        <h6>Architect</h6>
+        <span>Phasellus eget enim eu lectus faucibus <br> vestibulum. Suspendisse sodales pellentesque elementum.
+        </span>
+        <button>Contact</button>
+      </div>
+    </div>
+    </div>
 
+
+
+    <div id="contact">
+      <h3>Contact</h3>
+      <span>Lets get in touch and talk about your next project.</span>
+      <form action="">
+      <input type="text" placeholder="Name" required name="Name"> <br>
+      <input type="text" placeholder="Email" required name="Email"> <br>
+      <input type="text" placeholder="Subject" required name="Subject"> <br>
+      <input type="text" placeholder="Comment" required name="Comment"> <br>
+      <input type="submit" value="SEND MESSAGE">
+    </form>
+    </div>
+
+
+    <div class="map">
+      <img src="images/map.jpg" alt="map">
+    </div>
 
 
 
 
   </main>
-  <footer></footer>
+  <footer> <span>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></span>
+    </footer>
 </body>
-</html> 
+
+</html>
